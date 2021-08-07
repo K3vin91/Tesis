@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1623468312517.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2968411669",
+    "id" : "DCA3F051",
+    "lastKnownWriteTime" : 1622003388,
+    "last_content_update" : 1622003388,
+    "path" : "~/LCTIG/R/MODISTools-descarga-imagenes-series-tiempo-MODIS-main/MCD12Q2.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "5,5",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1624506334853.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BFEBE619",
+    "lastKnownWriteTime" : 32370017466253413,
+    "last_content_update" : 1624506334853,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "E1BDF0E9",
+        "caption" : "bands",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=bands&cache_key=E1BDF0E9",
+        "displayedObservations" : 13,
+        "environment" : "",
+        "expression" : "bands",
+        "object" : "bands",
+        "preview" : 0,
+        "totalObservations" : 13,
+        "variables" : 7
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,52 @@
+############# Modelo de distribucion del gorgojo descortezador de pino utilizando MAXENT ###############
+############## Kevin Gerardo Irias Padilla ################
+
+########## Librerias ########
+library(raster)
+library(MODISTools)
+library(dplyr)
+library(rasterVis)
+library(rworldxtra)
+library(tidyverse)
+library(lubridate)
+library(ggplot2)
+library(MODIS)
+library(sf)
+#Descargar todo los productos disponibles de los productos MONDLAND
+products <- mt_products()
+view(products)
+#Bandas disponibles para un producto del subconjunto
+bands <- mt_bands(product = "MOD09A1")
+View(bands)
+
+# Fechas disponibles para un producto 
+datesMOD <- mt_dates(product = "MOD09A1", lat = 14, lon = -86) %>% 
+  mutate(calendar_date = lubridate::ymd(calendar_date)) %>% 
+  arrange(desc(calendar_date))
+View(datesMOD)
+
+#Descarga de producto MOD09
+
+RS <- mt_subset(product = "MOD09A1", lat = 14, lon = -86, 
+                      band = "sur_refl_b01", start = "2021-06-02", end = "2021-06-10", 
+                      km_lr = 100, km_ab = 100, site_name = "Honduras", internal = TRUE, 
+                      progress = TRUE)
+
+#convert sinusoidal to lat / lon
+lat_lon <- sin_to_ll(RS$xllcorner, RS$yllcorner)
+
+#bind with the original dataframe
+RS<- cbind(RS, lat_lon)
+head(RS)
+
+#transformar los valores en un raster
+RS_Raster <- mt_to_raster(df = RS)
+plot(RS_Raster[[1]])
+
+writeRaster(RS_Raster[[1]], filename="mod09", format="GTiff", overwrite=TRUE,
+            datatype="INT2S")
+
+
+
+
+

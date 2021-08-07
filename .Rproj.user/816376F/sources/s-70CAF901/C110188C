@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1624500647000.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C110188C",
+    "lastKnownWriteTime" : 2916487996555553132,
+    "last_content_update" : 1624500647000,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "C471FD42",
+        "caption" : "products",
+        "contentUrl" : "grid_resource/gridviewer.html?env=_rs_no_env&obj=&cache_key=C471FD42",
+        "displayedObservations" : 40,
+        "environment" : "_rs_no_env",
+        "expression" : "structure(list(product = c(\"Daymet\", \"ECO4ESIPTJPL\", \"ECO4WUE\",  \"GEDI03\", \"MCD12Q1\", \"MCD12Q2\", \"MCD15A2H\", \"MCD15A3H\", \"MCD19A3\",  \"MCD43A\", \"MCD43A1\", \"MCD43A4\", \"MCD64A1\", \"MOD09A1\", \"MOD11A2\",  \"MOD13Q1\", \"MOD14A2\", \"MOD15A2H\", \"MOD16A2\", \"MOD17A2H\", \"MOD17A3HGF\",  \"MOD21A2\", \"MOD44B\", \"MYD09A1\", \"MYD11A2\", \"MYD13Q1\", \"MYD14A2\",  \"MYD15A2H\", \"MYD16A2\", \"MYD17A2H\", \"MYD17A3HGF\", \"MYD21A2\", \"SPL3SMP_E\",  \"SPL4CMDL\", \"VNP09A1\", \"VNP09H1\", \"VNP13A1\", \"VNP15A2H\", \"VNP21A2\",  \"VNP22Q2\"), description = c(\"Daily Surface Weather Data (Daymet) on a 1-km Grid for North America, Version 4\",  \"ECOSTRESS Evaporative Stress Index PT-JPL (ESI) Daily L4 Global 70 m\",  \"ECOSTRESS Water Use Efficiency (WUE) Daily L4 Global 70 m\",  \"GEDI Gridded Land Surface Metrics (LSM) L3 1km EASE-Grid\", \"MODIS/Terra+Aqua Land Cover Type (LC) Yearly L3 Global 500 m SIN Grid\",  \"MODIS/Terra+Aqua Land Cover Dynamics (LCD) Yearly L3 Global 500 m SIN Grid\",  \"MODIS/Terra+Aqua Leaf Area Index/FPAR (LAI/FPAR)  8-Day L4 Global 500 m SIN Grid\",  \"MODIS/Terra+Aqua Leaf Area Index/FPAR (LAI/FPAR) 4-Day L4 Global 500 m SIN Grid\",  \"MODIS/Terra+Aqua BRDF Model Parameters (MAIAC) 8-Day L3 Global 1 km SIN Grid\",  \"MODIS/Terra+Aqua BRDF and Calculated Albedo (BRDF/MCD43A) 16-Day L3 Global 500m SIN Grid\",  \"MODIS/Terra+Aqua BRDF/Albedo Model Parameters (BRDF) 16-Day L3 Global 500m SIN Grid\",  \"MODIS/Terra+Aqua Nadir BRDF-Adjusted Reflectance (NBAR) Daily L3 Global 500 m SIN Grid\",  \"MODIS/Terra+Aqua Burned Area (Burned Area) Monthly L3 Global 500 m SIN Grid\",  \"MODIS/Terra Surface Reflectance (SREF) 8-Day L3 Global 500m SIN Grid\",  \"MODIS/Terra Land Surface Temperature and Emissivity (LST) 8-Day L3 Global 1 km SIN Grid\",  \"MODIS/Terra Vegetation Indices (NDVI/EVI) 16-Day L3 Global 250m SIN Grid\",  \"MODIS/Terra Thermal Anomalies/Fire (Fire) 8-Day L3 Global 1 km SIN Grid\",  \"MODIS/Terra Leaf Area Index/FPAR (LAI/FPAR) 8-Day L4 Global 500 m SIN Grid\",  \"MODIS/Terra Net Evapotranspiration (ET) 8-Day L4 Global 500 m SIN Grid\",  \"MODIS/Terra Gross Primary Productivity (GPP) 8-Day L4 Global 500 m SIN Grid\",  \"MODIS/Terra Net Primary Production Gap-Filled (NPP) Yearly L4 Global 500 m SIN Grid\",  \"MODIS/Terra Land Surface Temperature/3-Band Emissivity (LSTE) 8-Day L3 Global 1 km SIN Grid\",  \"MODIS/Terra Vegetation Continuous Fields (VCF) Yearly L3 Global 250 m SIN Grid\",  \"MODIS/Aqua Surface Reflectance (SREF) 8-Day L3 Global 500m SIN Grid\",  \"MODIS/Aqua Land Surface Temperature and Emissivity (LST) 8-Day L3 Global 1 km SIN Grid\",  \"MODIS/Aqua Vegetation Indices (NDVI/EVI) 16-Day L3 Global 250m SIN Grid\",  \"MODIS/Aqua Thermal Anomalies/Fire (Fire) 8-Day L3 Global 1 km SIN Grid\",  \"MODIS/Aqua Leaf Area Index/FPAR (LAI/FPAR) 8-Day L4 Global 500 m SIN Grid\",  \"MODIS/Aqua Net Evapotranspiration (ET) 8-Day L4 Global 500 m SIN Grid\",  \"MODIS/Aqua Gross Primary Productivity (GPP) 8-Day L4 Global 500 m SIN Grid\",  \"MODIS/Aqua Net Primary Production Gap-Filled (NPP) Yearly L4 Global 500 m SIN Grid\",  \"MODIS/Aqua Land Surface Temperature/3-Band Emissivity (LSTE) 8-Day L3 Global 1 km SIN Grid\",  \"SMAP Enhanced Radiometer Soil Moisture (SM) Daily L3 Global 9km EASE-Grid\",  \"SMAP Carbon Net Ecosystem Exchange (NEE) Daily L4 Global 9 km EASE-Grid\",  \"VIIRS/S-NPP Surface Reflectance (SREF) 8-Day L3 Global 1 km SIN Grid\",  \"VIIRS/S-NPP Surface Reflectance (SREF) 8-Day L3 Global 500m SIN Grid\",  \"VIIRS/S-NPP Vegetation Indices (NDVI/EVI) 16-Day L3 Global 500m SIN Grid\",  \"VIIRS/S-NPP Leaf Area Index/FPAR (LAI/FPAR) 8-Day L4 Global 500 m SIN Grid\",  \"VIIRS/S-NPP Land Surface Temperature and Emissivity (LSTE) 8-Day L3 Global 1 km SIN Grid\",  \"VIIRS/S-NPP Land Cover Dynamics (LCD) Yearly L3 Global 500 m SIN Grid\" ), frequency = c(\"1 day\", \"Varies\", \"Varies\", \"One time\", \"1 year\",  \"1 year\", \"8 day\", \"4 day\", \"8 day\", \"1 day\", \"1 day\", \"1 day\",  \"Monthly\", \"8 day\", \"8 day\", \"16 day\", \"8 day\", \"8 day\", \"8 day\",  \"8 day\", \"1 year\", \"8 day\", \"1 year\", \"8 day\", \"8 day\", \"16 day\",  \"8 day\", \"8 day\", \"8 day\", \"8 day\", \"1 year\", \"8 day\", \"1 day\",  \"1 day\", \"8 day\", \"8 day\", \"16 day\", \"8 day\", \"8 day\", \"1 year\" ), resolution_meters = c(1000L, 70L, 70L, 1000L, 500L, 500L,  500L, 500L, 1000L, 500L, 500L, 500L, 500L, 500L, 1000L, 250L,  1000L, 500L, 500L, 500L, 500L, 1000L, 250L, 500L, 1000L, 250L,  1000L, 500L, 500L, 500L, 500L, 1000L, 9000L, 9000L, 1000L, 500L,  500L, 500L, 1000L, 500L)), row.names = c(NA, 40L), class = \"data.frame\")",
+        "object" : "",
+        "preview" : 0,
+        "totalObservations" : 40,
+        "variables" : 4
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

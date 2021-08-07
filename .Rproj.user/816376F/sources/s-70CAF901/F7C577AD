@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1624506602372.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F7C577AD",
+    "lastKnownWriteTime" : 32370017466253413,
+    "last_content_update" : 1624506602372,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "8FD44AC",
+        "caption" : "datesMOD",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=datesMOD&cache_key=8FD44AC",
+        "displayedObservations" : 979,
+        "environment" : "",
+        "expression" : "datesMOD",
+        "object" : "datesMOD",
+        "preview" : 0,
+        "totalObservations" : 979,
+        "variables" : 2
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

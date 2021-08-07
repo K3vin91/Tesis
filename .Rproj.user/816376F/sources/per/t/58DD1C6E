@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1623468319088.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3472364825",
+    "id" : "58DD1C6E",
+    "lastKnownWriteTime" : 1623468378,
+    "last_content_update" : 1623468378821,
+    "path" : "~/LCTIG/R/MODISTools-descarga-imagenes-series-tiempo-MODIS-main/MOD13Q1.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "4,26",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : true,
+    "source_window" : "",
+    "type" : "r_source"
+}

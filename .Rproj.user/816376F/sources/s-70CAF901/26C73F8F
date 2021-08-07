@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1623466809397.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "151|1|218|0|\n221|1|254|0|\n318|3|374|2|\n378|1|408|0|\n",
+    "hash" : "0",
+    "id" : "26C73F8F",
+    "lastKnownWriteTime" : 1623482225,
+    "last_content_update" : 1624498859303,
+    "path" : "~/LCTIG/R/Charla de R Fredy Lopez/code.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "264,4",
+        "docOutlineVisible" : "0",
+        "scrollLine" : "221"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1624498940028.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2CC12E7B",
+    "lastKnownWriteTime" : 1624517438,
+    "last_content_update" : 1624518971669,
+    "path" : "~/LCTIG/2021 PACII/Seminario de Investigacion/Tesis/LCTIG_Seminario/Codigo para modelo.R",
+    "project_path" : "Codigo para modelo.R",
+    "properties" : {
+        "cursorPosition" : "41,0",
+        "scrollLine" : "22",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
