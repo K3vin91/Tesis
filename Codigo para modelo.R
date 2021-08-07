@@ -22,16 +22,17 @@ library(Hmisc)
 library(rJava)
 library(ENMeval)
 library(MODIStsp)
+library(readxl)
 
 mod09a1 <- MODIStsp()
 rm(list = ls())
 ######################## Carpeta de trabajo ################################
 setwd('C:/Tesis/capas_procesadas')
-
+gorg_geo <- read_excel("gorg_geo.xls")
 ####################### plot de area de estudio ############################
 x <- gorg_geo[,2]
 y <- gorg_geo[,1]
-xmin=min(x)-1
+xmin=min(x)-2
 xmax=max(x)+3
 ymin=min(y)-1
 ymax=max(y)+2
@@ -47,13 +48,22 @@ list.rasters <- (list.files('C:/Tesis/Nueva carpeta', full.names = TRUE,
                             pattern = ".tif"))
 list.rasters
 
+rasters <- stack(list.rasters)
+rasters
 
+projection(rasters) <-CRS("+proj=longlat +datum=WGS84")   ####
 
+##################### eliminar colineridad #################################
+rasters.crop <- rasters
+rasters.crop.reduced <-removeCollinearity(rasters.crop, multicollinearity.cutoff = 0.85,
+                                          select.variables = TRUE, sample.points = FALSE, plot = TRUE)
+rasters.crop.reduced
 
+rasters.selected <- subset(rasters.crop, c("DEM_de_Honduras1","incend_20191","LAI_2019","LST1","NMDI1","Precipitacion_anual1","Slope_Honduras","VCF1"))
 
-
-
-
+#################### extraer valores de rasters #############################
+presvals <- raster::extract(rasters.selected, gorg_geo)
+presvals
 
 
 
