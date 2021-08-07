@@ -2,18 +2,18 @@
     "collab_server" : "",
     "contents" : "",
     "created" : 1628322792481.000,
-    "dirty" : false,
+    "dirty" : true,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "267099248",
+    "hash" : "0",
     "id" : "4FB0291E",
-    "lastKnownWriteTime" : 1628359734,
-    "last_content_update" : 1628359734109,
+    "lastKnownWriteTime" : 1628362803,
+    "last_content_update" : 1628363698888,
     "path" : "~/LCTIG/2021 PACII/Seminario de Investigacion/Tesis/LCTIG_Seminario/Codigo para modelo.R",
     "project_path" : "Codigo para modelo.R",
     "properties" : {
-        "cursorPosition" : "29,0",
-        "scrollLine" : "9"
+        "cursorPosition" : "39,0",
+        "scrollLine" : "17"
     },
     "read_only" : false,
     "read_only_alternatives" : [

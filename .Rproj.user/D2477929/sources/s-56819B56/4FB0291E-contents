@@ -28,6 +28,14 @@ rm(list = ls())
 ######################## Carpeta de trabajo ################################
 setwd('C:/Tesis/capas_procesadas')
 
-plot(gorg)
+x <- gorg_geo[,2]
+y <- gorg_geo[,1]
+xmin=min(x)
+xmax=max(x)+3
+ymin=min(y)-1
+ymax=max(y)+2
+
+maps::map(database = "world", xlim=c(xmin,xmax), ylim=c(ymin,ymax),
+          col = "blue", fill = TRUE)
 
 

@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1628362796842.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "384C23A1",
+    "lastKnownWriteTime" : 6135375412762664020,
+    "last_content_update" : 1628362796842,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "94B3F31B",
+        "caption" : "gorg_geo",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=gorg_geo&cache_key=94B3F31B",
+        "displayedObservations" : 1754,
+        "environment" : "",
+        "expression" : "gorg_geo",
+        "object" : "gorg_geo",
+        "preview" : 0,
+        "totalObservations" : 1754,
+        "variables" : 2
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
