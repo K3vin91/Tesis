@@ -42,4 +42,41 @@ box(which = "plot", lty = "solid", lxd=0.25)
 axis(side = 1,cex.axis=0.7,lwd = 0.25)
 axis(side=2,cex.axis=0.7, lwd = 0.25)
 
+###################### listar raster #######################################
+list.rasters <- (list.files('C:/Tesis/Nueva carpeta', full.names = TRUE,
+                            pattern = ".tif"))
+list.rasters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
