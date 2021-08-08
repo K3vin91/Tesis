@@ -70,14 +70,21 @@ presvals
 set.seed(1500)
 
 #################### Background #############################################
-background <- randomPoints(rasters.selected, 3500)
+background <- randomPoints(rasters.selected, 2000)
 absvals <- raster::extract(rasters.selected, background)
 pb <- c(rep(1,nrow(presvals)), rep(0, nrow(absvals)))
 sdmdata.present <- data.frame(cbind(pb, rbind(presvals, absvals)))
 
 #################### entrenar el modelo #####################################
-
-
+model.maxent <-maxent(x=rasters.selected, p=coord_gorg, a=background,
+                      args=c('randomtestpoints=20','betamultiplier=1',
+                             'linear=true','quadratic=true','product=true',
+                             'threshold=true','hinge=true','threads=2',
+                             'responsecurves=true','jackknife=true',
+                             'askoverwrite=true'
+                             )
+                      )
+model.maxent
 
 
 
