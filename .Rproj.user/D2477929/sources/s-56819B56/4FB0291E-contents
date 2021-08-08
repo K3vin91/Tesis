@@ -28,23 +28,21 @@ mod09a1 <- MODIStsp()
 rm(list = ls())
 ######################## Carpeta de trabajo ################################
 setwd('C:/Tesis/capas_procesadas')
-gorg_geo <- read_excel("gorg_geo.xls")
+gorg_utm <- read_excel("gorg.xls")
 ####################### plot de area de estudio ############################
-x <- gorg_geo[,2]
-y <- gorg_geo[,1]
-xmin=min(x)-2
+x <- gorg_geo[,1]
+y <- gorg_geo[,2]
+xmin=min(x)-3
 xmax=max(x)+3
 ymin=min(y)-1
 ymax=max(y)+2
 
-maps::map(database = "world", xlim=c(xmin,xmax), ylim=c(ymin,ymax),
-          col = "blue", fill = TRUE)
+maps::map(database = "world", xlim=c(xmin,xmax), ylim=c(ymin,ymax), col = "blue", fill = TRUE)
 box(which = "plot", lty = "solid", lxd=0.25)
 axis(side = 1,cex.axis=0.7,lwd = 0.25)
 axis(side=2,cex.axis=0.7, lwd = 0.25)
 
-coord_gorg <- SpatialPoints(gorg_geo, proj4string = CRS("+proj=longlat +datum=WGS84"))
-plot(gorg_geo)
+coord_gorg <- SpatialPoints(gorg_utm)
 
 ###################### listar raster #######################################
 list.rasters <- (list.files('C:/Tesis/Nueva carpeta', full.names = TRUE,

@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "570587351",
+    "hash" : "0",
     "id" : "BD2907C2",
     "lastKnownWriteTime" : 1623569602,
     "last_content_update" : 1623569602,
     "path" : "~/LCTIG/2021 PACII/Seminario de Investigacion/Tesis/LCTIG_Seminario/pruebas de funciones.R",
     "project_path" : "pruebas de funciones.R",
     "properties" : {
+        "cursorPosition" : "25,21",
+        "scrollLine" : "24"
     },
     "read_only" : false,
     "read_only_alternatives" : [
