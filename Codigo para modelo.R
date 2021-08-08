@@ -66,9 +66,16 @@ rasters.selected <- subset(rasters.crop, c("DEM_de_Honduras1","incend_20191","LA
 presvals <- raster::extract(rasters.selected, coord_gorg)
 presvals
 
+#################### Seleccionar semilla ####################################
+set.seed(1500)
 
+#################### Background #############################################
+background <- randomPoints(rasters.selected, 3500)
+absvals <- raster::extract(rasters.selected, background)
+pb <- c(rep(1,nrow(presvals)), rep(0, nrow(absvals)))
+sdmdata.present <- data.frame(cbind(pb, rbind(presvals, absvals)))
 
-
+#################### entrenar el modelo #####################################
 
 
 
