@@ -70,7 +70,7 @@ presvals
 set.seed(1500)
 
 #################### Background #############################################
-background <- randomPoints(rasters.selected, 2000)
+background <- randomPoints(rasters.selected, 10000)
 absvals <- raster::extract(rasters.selected, background)
 pb <- c(rep(1,nrow(presvals)), rep(0, nrow(absvals)))
 sdmdata.present <- data.frame(cbind(pb, rbind(presvals, absvals)))
@@ -85,9 +85,12 @@ model.maxent <-maxent(x=rasters.selected, p=coord_gorg, a=background,
                              )
                       )
 model.maxent
+################### mapa de prediccion ######################################
+map.model.maxent <- predict(object = model.maxent, x=rasters.crop, na.rm=TRUE,
+                            format='GTiff', filename='C:/Tesis/Resultado',
+                            overwrite='TRUE', progress='text')
 
-
-
+plot(map.model.maxent, main='modelo')
 
 
 
